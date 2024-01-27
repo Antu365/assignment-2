@@ -1,0 +1,120 @@
+/* shared style */
+body {
+    max-width: 1150px;
+    margin: auto;
+}
+
+/* nav related style */
+nav {
+    display: flex;
+}
+
+nav ul {}
+
+/* banner related style */
+.banner {
+    background-image: url('../Images/Group\ 13.png');
+    width: 100%;
+    height: 78vh;
+    border-radius: 16px;
+    margin: auto;
+}
+
+.banner-content {
+    text-align: center;
+    padding-top: 6rem;
+}
+
+.banner-content p {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.banner-content h1 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.banner-input-section {
+    background-color: #ffffff4d;
+    display: inline-flex;
+    padding: 1rem;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+
+}
+
+.banner-input-section input {
+    border-radius: 8px;
+    background: #FFF;
+    width: 11rem;
+    height: 3rem;
+    padding-left: 1rem;
+    border: none;
+}
+
+.banner-input-section button {
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;
+    width: 11rem;
+    height: 3rem;
+}
+
+/* tour related style */
+.popular-tours {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+    margin-top: 5rem;
+}
+
+#popular-tour-content {
+    width: 95%;
+}
+
+#popular-tour-content h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 0;
+}
+
+#popular-tour-content p,
+ul {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+#popular-tour-content li {
+    padding: 5px;
+}
+
+#popular-tour-content button {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 8px;
+    background: #FF5400;
+    width: 150px;
+    height: 40px;
+    margin-top: 2rem;
+}
+
+#popular-tour-img {
+    border-radius: 16px;
+    width: 100%;
+}

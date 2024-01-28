@@ -134,6 +134,7 @@ ul {
 .destination-text {
     text-align: center;
 }
+
 .destination-text h2 {
     color: #131318;
     text-align: center;
@@ -143,6 +144,7 @@ ul {
     margin-top: 5rem;
     margin-bottom: 0px;
 }
+
 .destination-text p {
     color: rgba(19, 19, 24, 0.70);
     text-align: center;
@@ -152,65 +154,274 @@ ul {
     line-height: 26px;
     margin-bottom: 20px;
 }
+
 .destination-img-row-1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
 }
+
 .img-box1 {
     background-image: url('../Images/Rectangle\ 5.png');
     width: 100%;
     border-radius: 1rem;
     height: 18.75rem;
 }
+
 .img-box2 {
     background-image: url('../Images/Rectangle\ 8.png');
     width: 100%;
     border-radius: 1rem;
     height: 18.75rem;
 }
-.destination-img-row-2{
+
+.destination-img-row-2 {
     display: grid;
     grid-template-columns: repeat(3, 370px 470px 260px);
     gap: 1.5rem;
     margin-top: 1rem;
 }
-.img-box3{
+
+.img-box3 {
     background-image: url('../Images/Rectangle\ 6.png');
     border-radius: 1rem;
     height: 17.8rem;
 }
-.img-box4{
+
+.img-box4 {
     background-image: url('../Images/Rectangle\ 7.png');
     border-radius: 1rem;
     height: 17.8rem;
 }
-.img-box5{
+
+.img-box5 {
     background-image: url('../Images/Rectangle\ 9.png');
     border-radius: 1rem;
     height: 17.8rem;
 }
-.destination-img-row-3{
+
+.destination-img-row-3 {
     display: grid;
     grid-template-columns: repeat(2, 455px 670px);
     gap: 1.5rem;
     margin-top: 1rem;
 }
-.img-box6{
+
+.img-box6 {
     border: 1px solid tomato;
     background-image: url('../Images/Rectangle\ 11.png');
     border-radius: 1rem;
     height: 18.75rem;
 }
-.img-box7{
+
+.img-box7 {
     border: 1px solid tomato;
     background-image: url('../Images/Rectangle\ 10.png');
     border-radius: 1rem;
     height: 18.75rem;
 }
 
+/* why us section related style */
+.why-us-title {
+    margin-top: 5rem;
+    text-align: center;
+    padding: 0px auto;
+}
 
-@media screen and (max-width:576px) {
+.why-us-title h2 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.why-us h4 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.why-us p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.why-us img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.card-row1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: 30px;
+}
+
+.card-1 {
+    height: 17.7rem;
+    border-radius: 1rem;
+    border: 1px solid #fbb56330;
+    background: #fbb5630d;
+    padding: 30px 60px 0px 30px;
+}
+
+.card-2 {
+    height: 17.7rem;
+    border-radius: 1rem;
+    border: 1px solid #29cef633;
+    background: #29cef60d;
+    padding: 30px 60px 0px 30px;
+}
+
+.card-row2 {
+    margin: auto;
+    margin-top: 1rem;
+    width: 35.8rem;
+    height: 17.7rem;
+    flex-shrink: 0;
+}
+
+.card-3 {
+    height: 17.7rem;
+    border-radius: 1rem;
+    border: 1px solid #e9444433;
+    background: #e944440d;
+    padding: 30px 60px 0px 30px;
+}
+
+/* newsletter related style */
+.newsletter {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 40% 60%);
+    gap: 1.5rem;
+}
+
+.newsletter-content {
+    border: 1px solid #FF5400;
+    height: 26.3rem;
+    background: #FFF;
+    border-radius: 1rem;
+    padding-left: 2rem;
+}
+
+.newsletter-content h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.newsletter-content p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 40px;
+}
+
+.newsletter-content input {
+    width: 22rem;
+    height: 3.25rem;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-bottom: 20px;
+    padding-left: 1rem;
+}
+
+.newsletter-content button {
+    width: 23.5rem;
+    height: 3.25rem;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.newsletter-img {
+    background-image: url('../Images/Rectangle\ 8.1\ .png');
+    width: 97%;
+    height: 26.3rem;
+    border-radius: 1rem;
+}
+
+.newsletter-img-box {
+    border-radius: 16px;
+    background: #FF5400;
+    text-align: center;
+    width: 300px;
+    height: 100px;
+    border-radius: 1rem;
+    padding: 0px;
+    transform: translate(360px, 245px) rotate(-19.628deg);
+}
+
+.newsletter-img-box h4 {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.newsletter-img-box h2 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+/* footer related style */
+.footer {
+    text-align: center;
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 100px;
+    padding-top: 110px;
+    height: 400px;
+}
+
+.footer-title {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-title-style {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.footer-icon {
+    margin-top: 80px;
+}
+
+.rights {
+    margin-top: 50px;
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+
+
+@media screen and (max-width:600px) {
     body {
         /* max-width: 576px; */
         margin: 30px;
@@ -277,9 +488,25 @@ ul {
         border: 2px solid red;
         width: 50%;
     }
+
     /* Choose your destination related style */
-    .destination-img-row-1, .destination-img-row-2, .destination-img-row-3{
+    .destination-img-row-1,
+    .destination-img-row-2,
+    .destination-img-row-3,
+    .card-row1,
+    .newsletter {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .newsletter-img-box {
+        border-radius: 16px;
+        background: #FF5400;
+        text-align: center;
+        width: 250px;
+        height: 100px;
+        border-radius: 1rem;
+        padding: 0px;
+        transform: translate(60%, 245px) rotate(-19.628deg);
     }
 }

@@ -7,9 +7,45 @@ body {
 /* nav related style */
 nav {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0px;
 }
 
-nav ul {}
+.nav-title {
+    display: flex;
+}
+
+.nav-title img {
+    width: 48px;
+    height: 56.008px;
+}
+
+.nav-title-style {
+    color: #FF5400;
+    font-family: Mulish;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
+
 
 /* banner related style */
 .banner {
@@ -79,7 +115,7 @@ nav ul {}
 }
 
 .popular-tour-content {
-    width: 95%;
+    width: 100%;
 }
 
 .popular-tour-content h2 {
@@ -116,8 +152,8 @@ ul {
     margin-top: 2rem;
 }
 
-.popular-tour-img {
-    border-radius: 16px;
+.popular-tours img{
+    border-radius: 1rem;
     width: 100%;
 }
 
@@ -186,18 +222,21 @@ ul {
     background-image: url('../Images/Rectangle\ 6.png');
     border-radius: 1rem;
     height: 17.8rem;
+    background-repeat: no-repeat;
 }
 
 .img-box4 {
     background-image: url('../Images/Rectangle\ 7.png');
     border-radius: 1rem;
     height: 17.8rem;
+    background-repeat: no-repeat;
 }
 
 .img-box5 {
     background-image: url('../Images/Rectangle\ 9.png');
     border-radius: 1rem;
     height: 17.8rem;
+    background-repeat: no-repeat;
 }
 
 .destination-img-row-3 {
@@ -208,14 +247,13 @@ ul {
 }
 
 .img-box6 {
-    border: 1px solid tomato;
     background-image: url('../Images/Rectangle\ 11.png');
     border-radius: 1rem;
     height: 18.75rem;
+    background-repeat: no-repeat;
 }
 
 .img-box7 {
-    border: 1px solid tomato;
     background-image: url('../Images/Rectangle\ 10.png');
     border-radius: 1rem;
     height: 18.75rem;
@@ -373,16 +411,21 @@ ul {
 .newsletter-img-box h4 {
     color: #FFF;
     text-align: center;
+    width: 40%;
+    margin-left: 70px;
     font-family: Mulish;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 
 .newsletter-img-box h2 {
     color: #FFF;
     font-family: Mulish;
-    font-size: 32px;
+    width: 80%;
+    font-size: 2rem;
     font-weight: 800;
+    /* margin-top: 0px; */
+    margin-left: 20px;
 }
 
 /* footer related style */
@@ -472,41 +515,66 @@ ul {
         height: 3rem;
     }
 
-    /* popular tour related style */
-    .popular-tours {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        margin-top: 3rem;
-        /* gap: 4rem; */
-    }
 
-    .popular-tour-content {
-        width: 80%;
-    }
-
-    .popular-tour-img {
-        border: 2px solid red;
-        width: 50%;
-    }
-
-    /* Choose your destination related style */
+    /* popular tour & Choose your destination related style */
     .destination-img-row-1,
     .destination-img-row-2,
     .destination-img-row-3,
     .card-row1,
-    .newsletter {
+    .newsletter, .popular-tours {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .newsletter-img {
+        width: 100%;
+        height: 26.3rem;
+        border-radius: 1rem;
     }
 
     .newsletter-img-box {
         border-radius: 16px;
         background: #FF5400;
         text-align: center;
-        width: 250px;
+        width: 270px;
         height: 100px;
         border-radius: 1rem;
         padding: 0px;
-        transform: translate(60%, 245px) rotate(-19.628deg);
+        transform: translate(55%, 245px) rotate(-19.628deg);
     }
+
+    .card-row2 {
+        margin: auto;
+        margin-top: 1rem;
+        width: 100%;
+        height: 17.7rem;
+        flex-shrink: 0;
+    }
+    .img-box3 {
+        border-radius: 1.5rem;
+        width: 100%;
+        height: 17.8rem;
+        background-size: 100% 100%;
+
+    }
+    .img-box4 {
+        border-radius: 1.5rem;
+        width: 100%;
+        height: 17.8rem;
+        background-size: 100% 100%;
+
+    }
+    .img-box5 {
+        border-radius: 1.5rem;
+        width: 100%;
+        height: 17.8rem;
+        background-size: 100% 100%;
+    }
+    .img-box6 {
+        border-radius: 1rem;
+        width: 100%;
+        height: 18.75rem;
+        background-size: 100% 100%;
+    }
+
 }
